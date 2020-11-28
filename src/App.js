@@ -5,7 +5,7 @@ import BaiTapLayout from './Components/BaiTapLayout/BaiTapLayout';
 function App() {
   return (
     <div className="App">
-     <BaiTapLayout/>
+   <BaiTapLayout/>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class Navigation extends Component {
+export default class BT3Header extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -13,7 +13,7 @@ export default class Navigation extends Component {
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item active">
                                 <a className="nav-link" href="#">Home
-                                    <span className="sr-only">(current)</span>
+                                <span className="sr-only">(current)</span>
                                 </a>
                             </li>
                             <li className="nav-item">
@@ -29,7 +29,6 @@ export default class Navigation extends Component {
                     </div>
                 </div>
             </nav>
-
         )
     }
 }
